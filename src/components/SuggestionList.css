@@ -1,0 +1,33 @@
+.SuggestionList {
+    list-style: none;
+    padding: 0;
+    margin: 0px auto;
+    float: center;
+    max-width: 670px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SuggestionList li {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e6e6e6;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .SuggestionList li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .SuggestionList li.selected {
+    background-color: #ffe5b4; /* Highlight for the selected suggestion */
+    font-weight: bold;
+  }
+  
+  .SuggestionList li:last-child {
+    border-bottom: none; /* Remove border from the last list item */
+  }
+  

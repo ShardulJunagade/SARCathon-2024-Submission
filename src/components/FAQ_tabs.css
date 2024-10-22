@@ -1,0 +1,23 @@
+.faq-tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    margin-bottom: 30px;
+}
+  
+.faq-tabs button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.faq-tabs button:hover,
+.faq-tabs button.active-faq-tab {
+    color: #f76c3d;
+    border-bottom: 2px solid #f76c3d;
+}

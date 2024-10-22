@@ -1,0 +1,50 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 20px; /* More rounded corners */
+    width: 800px; /* Full width */
+    margin: 0 auto; /* Centered horizontally */
+    /* border: red 1px solid; */
+    padding-right: 50px;
+}
+
+/* Search Input */
+.search-container input {
+    width: 36rem;
+    /* max-width: 350px; Adjust width for aesthetics */
+    padding: 6px 12px; /* Smaller padding to reduce height */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    border: 1px solid #ccc;
+    border-radius: 15px; /* More rounded corners for the input */
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+}
+
+/* Focus State */
+.search-container input:focus {
+    border-color: #f47a20; /* Orange highlight on focus */
+    box-shadow: 0 0 5px rgba(244, 122, 32, 0.3);
+}
+
+/* Search Button */
+.search-container button {
+    padding: 6px 18px; /* Reduced padding to match the slim height */
+    background-color: #f47a20; /* Button color matching the theme */
+    color: white;
+    border: none;
+    border-radius: 15px; /* More rounded corners for the button */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect for Button */
+.search-container button:hover {
+    background-color: #e06816; /* Darken button on hover */
+}
