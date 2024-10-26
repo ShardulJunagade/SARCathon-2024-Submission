@@ -23,11 +23,11 @@
   }
   
   .SuggestionList li.selected {
-    background-color: #ffe5b4; /* Highlight for the selected suggestion */
+    background-color: #ffe5b4; 
     font-weight: bold;
   }
   
   .SuggestionList li:last-child {
-    border-bottom: none; /* Remove border from the last list item */
+    border-bottom: none; 
   }
   

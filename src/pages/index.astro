@@ -1,14 +1,6 @@
 ---
 import FAQ_PAGE from "../components/FAQ_PAGE.jsx";
 ---
-
-<!-- ADD LOADER
-     Create a helper function
-     that sets loader to true then calls handle search
-     after await set loader false
-     
-     react loaders sample - https://awesome-loaders.netlify.app/docs/loaders/boltloader/
--->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -22,36 +14,3 @@ import FAQ_PAGE from "../components/FAQ_PAGE.jsx";
     <FAQ_PAGE client:load />
   </body>
 </html>
-<style is:global>
-  /* :root {
-    --accent: 136, 58, 234;
-    --accent-light: 224, 204, 250;
-    --accent-dark: 49, 10, 101;
-    --accent-gradient: linear-gradient(
-      45deg,
-      rgb(var(--accent)),
-      rgb(var(--accent-light)) 30%,
-      white 60%
-    );
-  }
-  html {
-    font-family: system-ui, sans-serif;
-    background: #13151a;
-  }
-  slot {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid red;
-  }
-  code {
-    font-family:
-      Menlo,
-      Monaco,
-      Lucida Console,
-      Liberation Mono,
-      DejaVu Sans Mono,
-      Bitstream Vera Sans Mono,
-      Courier New,
-      monospace;
-  } */
-</style>

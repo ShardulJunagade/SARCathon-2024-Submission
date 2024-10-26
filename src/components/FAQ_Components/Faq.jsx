@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import './FAQ.css'; 
-import faqs_data from './faq_data.js';
+import faqs_data from '../faq_data.js';
 import FAQs from './FAQs.jsx';
 import FAQ_tabs from './FAQ_tabs.jsx';
-import Search from './Search.jsx';
 
 const FAQ = () => {
   const [activeTab, setActiveTab] = useState('Admissions');

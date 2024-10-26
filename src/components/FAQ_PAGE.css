@@ -1,39 +1,39 @@
 .faq-text {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Align content vertically in the center */
-  align-items: center; /* Align content horizontally in the center */
+  justify-content: center; 
+  align-items: center; 
   text-align: center; /* Center text inside the div */
   margin: 0 auto;
   padding: 20px;
 }
 
 .faq-text h1 {
-  font-size: 3rem; /* Adjust the heading size */
+  font-size: 3rem;
   margin-bottom: 20px;
 }
 
 .faq-text .highlight {
-  color: #f47a20; /* Highlight color for the word 'Questions' */
+  color: #f47a20;
 }
 
 .faq-text .subtext {
-  font-size: 1.2rem; /* Adjust the font size of the subtext */
-  color: #555; /* Subtle color for the description */
-  max-width: 800px; /* Limit the width of the subtext for better readability */
+  font-size: 1.2rem;
+  color: #555; 
+  max-width: 800px; 
 }
 
 .back-button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: rgb(228, 118, 73); /* Theme color for the button */
-  color: white; /* Text color for the button */
-  font-size: 1rem; /* Font size for the button text */
-  font-weight: bold; /* Bold font weight for emphasis */
-  text-transform: uppercase; /* Uppercase text for the button */
-  border: none; /* Remove border from the button */
-  border-radius: 5px; /* Rounded corners for the button */
-  cursor: pointer; /* Show pointer cursor on hover */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  background-color: rgb(228, 118, 73);
+  color: white; 
+  font-size: 1rem; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
   margin-left: 30rem;
 }

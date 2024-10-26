@@ -42,12 +42,12 @@
   margin-top: 10px;
   font-size: 0.95rem;
   color: #555;
-  display: none; /* Initially hidden */
+  display: none; 
   line-height: 1.4;
 }
 
 .search-result-item.active .search-result-answer {
-  display: block; /* Display answer when active */
+  display: block; 
 }
 
 .plus-minus {
