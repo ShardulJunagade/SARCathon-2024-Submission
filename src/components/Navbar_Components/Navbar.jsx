@@ -1,6 +1,6 @@
 import React from 'react';
-import './Navbar.css'; // Import the CSS file
-import ApplyButton from './ApplyButton';
+import './Navbar.css'; 
+import ApplyButton from '../Utils/ApplyButton';
 
 const Navbar = () => {
   return (
@@ -11,6 +11,7 @@ const Navbar = () => {
           src="saras_logo.png"
           alt="Saras AI Logo"
           className="logo"
+          style={{height: 50, width: 150}}
         />
       </a>
 

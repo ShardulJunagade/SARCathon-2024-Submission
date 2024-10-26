@@ -2,7 +2,7 @@ import React from 'react';
 import './SearchInput.css'
 import SearchButton from './SearchButton';
 
-const SearchInput = ({ input, handleInputChange, handleKeyDown, handleSearch }) => {
+const SearchInput = ({ input, handleInputChange, handleKeyDown, handleSearch, loader }) => {
   return (
     <div className="search-input-container">
       <input
@@ -14,7 +14,7 @@ const SearchInput = ({ input, handleInputChange, handleKeyDown, handleSearch }) 
         onChange={handleInputChange}
         onKeyDown={handleKeyDown}
       />
-      <SearchButton handleSearch={handleSearch} />
+      <SearchButton handleSearch={handleSearch} loader={loader} />
     </div>
   );
 };

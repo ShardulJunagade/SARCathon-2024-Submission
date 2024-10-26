@@ -9,11 +9,17 @@
   font-size: 16px !important;
 }
 
-  
 .search-button:hover {
-    background-color: #005bb5;
+  background-color: #005bb5;
 }
-  
+
 .search-button:active {
-    background-color: #004080;
+  background-color: #004080;
+}
+
+/* Disabled button styles */
+.search-button:disabled {
+  background-color: grey !important;  
+  cursor: not-allowed !important;     
+  opacity: 0.6 !important;         
 }

@@ -1,6 +1,5 @@
 import SearchInput from './SearchInput';
 import SuggestionsList from './SuggestionsList';
-import ApplyButton from './ApplyButton';
 import './Search.css';
 
 const Search = ({
@@ -11,6 +10,7 @@ const Search = ({
   suggestions,
   selectedSuggestion,
   handleSuggestionClick,
+  loader,
 }) => {
   return (
     <>
@@ -20,6 +20,7 @@ const Search = ({
         handleInputChange={handleInputChange} 
         handleKeyDown={handleKeyDown} 
         handleSearch={handleSearch}
+        loader={loader}
       />
     </div>
     {suggestions.length > 0 && (
